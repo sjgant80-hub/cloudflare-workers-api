@@ -1,0 +1,15 @@
+{
+  "name": "@ai-native-solutions/cloudflare-workers-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HTTP proxy for Cloudflare Workers · sovereign estate wrapper · docs: https://developers.cloudflare.com/workers/",
+  "main": "./server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/cloudflare-workers-api.git"
+  }
+}
