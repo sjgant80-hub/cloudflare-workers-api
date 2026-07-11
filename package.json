@@ -1,0 +1,22 @@
+{
+  "name": "@ai-native-solutions/cloudflare-workers-api",
+  "version": "1.0.0",
+  "description": "HTTP proxy for Cloudflare Workers · 100 routes from OpenAPI · MIT · AI-Native Solutions",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/cloudflare-workers-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

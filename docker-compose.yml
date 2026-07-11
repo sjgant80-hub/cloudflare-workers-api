@@ -1,0 +1,7 @@
+services:
+  cloudflare-workers-api:
+    build: .
+    ports: ["3000:3000"]
+    environment:
+      UPSTREAM: "https://api.cloudflare.com/client/v4"
+    restart: unless-stopped
